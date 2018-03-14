@@ -47,7 +47,8 @@ def conv(num):
 		ones = 0
 	roman_num = roman_num + ones * 'I'
 
-	print(orig_num, roman_num)
+	#print(orig_num, roman_num)
+	print(roman_num)
 
 num = random.randint(100, 5000)
 conv(num)
